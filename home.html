@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chris' To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="ToDoList.css">
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Chris' To Do List</h1>
+
+    </div>
+</div>
+<div id="list" class="container">
+    <div class="col-md-9">
+    <table id="myTable" class="table table-bordered">
+          <tr>
+              <td><strong>things to do</strong></td>
+              <td><strong>delete Item</strong></td>
+              <td><strong>check it off</strong></td>
+          </tr>  
+          <tr>
+              <td> Wake up!</td>
+              <td><button type="button" class="btn btn-default">delete</button></td>
+              <td><input type="checkbox" class="checkbox stroked" /></td>
+          </tr> 
+          <tr>
+              <td>Take a shower</td>
+              <td><button type="button" class="btn btn-default">delete</button></td>
+              <td><input type="checkbox" class="checkbox stroked" /></td>
+          </tr>
+          <tr>
+              <td>Brush teeth</td>
+              <td><button type="button" class="btn btn-default">delete</button></td>
+              <td><input type="checkbox" class="checkbox stroked" /></td>
+          </tr>
+          <tr>
+              <td>Put on clothes</td>
+              <td><button type="button" class="btn btn-default">delete</button></td>
+              <td><input type="checkbox" class="checkbox stroked" /></td>
+          </tr>
+
+  </table>
+</div>
+<div id="sidebar" class="col-md-3">
+    <div class= "sidebar-nav-float">
+        <div class="form-group">
+        <h1>Have something else to do? <small>Add it here!</small></h1>
+    <form role="form">
+        <input id="new-text" type="text" class="form-control" placeholder="Your Task" name="task">
+    </form>
+    <button type="button" class=" btn btn-primary">Add</button>
+        
+</div>
+        
+    
+    
+</div>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"> </script>
+<script type="text/javascript" src="toDoList.js"></script>
+</body>
+
+
+
+</html>
